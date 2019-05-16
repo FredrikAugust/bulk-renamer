@@ -2,6 +2,7 @@
   "name": "bulk-renamer",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://fredrikaugust.github.io/bulk-renamer",
   "dependencies": {
     "esprima": "^4.0.1",
     "esrefactor": "^0.1.0",
