@@ -23,7 +23,7 @@ const renameSymbol = (code, i, setCode) => {
 	try {
 		setCode(new esrefactor.Context(code.rename(code.identify(i), prompt("New name for variable: "))));
 	} catch(e) {
-		console.error("Invalid renaming.");
+		console.warn("Invalid renaming.");
 		setCode(code);
 	}
 }

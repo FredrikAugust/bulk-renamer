@@ -1,5 +1,7 @@
 # Bulk renamer for JavaScript
 
+[Link to website](https://fredrikaugust.github.io/bulk-renamer)
+
 This is a very simple program that takes a javscript program, and renames variables sharing the same name, but not representing the same variables into unique names.
 
 This is a common obfuscation pattern in CTFs, and this is my motivation for creating it.
