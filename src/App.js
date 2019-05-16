@@ -34,7 +34,7 @@ const App = () => {
 
   return (
 		<>
-			<h1>Bulk renamer for JavaScript by <a href="https://twitter.com/otterinjection">@otterinjection</a></h1>
+			<h1>Bulk renamer for JavaScript by <a href="https://twitter.com/otterinjection">@otterinjection</a> [<a href="https://github.com/fredrikaugust/bulk-renamer">source</a>]</h1>
 			<p>How does one use this tool? Insert some JS, click the "Bulk Rename" button, and when prompted with your parsed code,
 			you want to click the variable you wish to rename. You will then be presented with a dialog box asking you for your new
 			variable name. Simply enter it, and press enter, and voilla, you're done.</p>
