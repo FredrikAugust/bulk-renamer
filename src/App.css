@@ -23,3 +23,9 @@ span[id^=code-] {
 	cursor: pointer;
 	white-space: pre;
 }
+
+#done-button {
+  margin-top: 2em;
+  clear: both;
+  display: block;
+}

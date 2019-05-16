@@ -39,7 +39,7 @@ const App = () => {
 			you want to click the variable you wish to rename. You will then be presented with a dialog box asking you for your new
 			variable name. Simply enter it, and press enter, and voilla, you're done.</p>
 			{ error ? <h5 id="error">{error}</h5> : '' }
-			{	code ? <CodeRenamer code={code} renameSymbol={renameSymbol} setCode={setCode} /> :
+			{ code ? <CodeRenamer code={code} renameSymbol={renameSymbol} setCode={setCode} /> :
 				<StageOneInput prepareAndValidateInput={prepareAndValidateInput} setError={setError} setCode={setCode} />
 			}
 		</>

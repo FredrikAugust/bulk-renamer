@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://fredrikaugust.github.io/bulk-renamer",
   "dependencies": {
+    "escodegen": "^1.11.1",
     "esprima": "^4.0.1",
     "esrefactor": "^0.1.0",
     "react": "^16.8.6",
